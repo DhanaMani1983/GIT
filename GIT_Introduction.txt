@@ -1,0 +1,79 @@
+################################
+GIT Introduction
+################################
+
+What is GIT?
+
+Git is a version control software/system for tracking changes in computer file
+
+- Distributed version control - where developers dont need to be on same network to check in or check out changes
+- Coordinates work between mutltiple developers
+- Who made changes when and what
+- Can revert changes as long changes are committed
+- Local repos and Remote repos, dont need network or internet connection to work on local repos
+
+Concepts on GIT
+
+- Keeps track of code history
+- takes snapshots of your files once you commit
+- you can stage files before commit
+
+Basic commands 
+
+git init Initialize Local git repository and it creates .git file which is hidden
+git add <file> adds the file to staging area
+git status check status of working tree and staging area
+git commit - commits changes in staging area to local repository
+git push - push the local repo to remote repos,will ask for password, you can use ssh key to avoid entering
+           passwords each time
+git pull - Pull the latest from remote repos to local folder
+git clone - copy remote repo to local dir
+
+Demo:
+To intialize a git repository use the command
+$git init
+
+It will go ahead and initialize the repo with .git folder which is hidden
+
+Add username and email while working with git for identification purpose
+
+git config --global user.name 'Dhana Mani'
+git config --gloabal user.email 'Dhana.Mani@hotmail.co.uk'
+
+To add file to staging use
+git add filename
+
+To check status of the file
+git status
+
+To remove file from staging use
+
+git rm --cached inedx.html
+
+git add . to add all files in repos
+
+git commit opens up vim editor use i to insert, use esc :wq to come out of vm.
+
+use git commit -m 'Comment'
+
+To ignore a file 
+
+touch .gitignore to create the file and inside the file add the file names to ignore
+
+Branches:
+To create a branch
+git branch branchname
+
+To switch to the branch
+git checkout branchname
+
+To merge changes 
+git merge branchname
+
+Clone to remote repo:
+
+git remote - will give list of remote repository
+
+git remote add origin https://github.com/DhanaMani1983/GIT.git
+
+git push -u origin master to push to remote repos
