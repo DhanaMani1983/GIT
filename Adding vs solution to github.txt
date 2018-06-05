@@ -3,6 +3,7 @@ Add visual studio projects to GIT Hub
 ###############################################
 
 Source: https://www.youtube.com/watch?v=Ijfypw7qJgg
+https://www.youtube.com/watch?v=8nefSc9nkjk
 
 To create git ignore file - https://www.gitignore.io/
 
