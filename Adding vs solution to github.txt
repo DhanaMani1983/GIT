@@ -1,0 +1,27 @@
+###############################################
+Add visual studio projects to GIT Hub
+###############################################
+
+Source: https://www.youtube.com/watch?v=Ijfypw7qJgg
+
+To create git ignore file - https://www.gitignore.io/
+
+Visual studio tools for GIT, if you are prompted to install please install it.
+
+1. Create a local folder first, let it be a fresh environment, it is the place where all the git hub files are going to be stored 
+2. Next create a repo on GIT Hub. give it a name, initialize and add git ignore file 
+3. Open visual studio, view team explorer, go to the home sceen, go to settings and git settings and then global settings 
+   set User name, email address, default repositary location for which pick the local folder, but you can select network folder if it allows it and click update
+4. Connect to team project, we are now going to create a clone, copy the https address from git hub repo and clone it to visual studio
+
+Once you have cloned local repository to GIT repo, Next create a solution, make sure you turn off add to solution 
+
+Always build and run the solution before checking in. 
+
+Next go to team explorere and click on changes, you will see list of changes to include. put in a commit message and click commit which commits to local machine##
+
+Go to unsynced commits, for best practice, dont break the build, before pushing pull the code and finally when you are ready push the code to the repo
+
+
+
+
