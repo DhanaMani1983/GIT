@@ -25,3 +25,13 @@ https://www.youtube.com/watch?v=to6tIdy5rNc
 Introduction to Git - Core Concepts:
 
 https://www.youtube.com/watch?v=uR6G2v_WsRA
+
+https://www.youtube.com/watch?v=FyAAIHHClqI
+
+Branching and Merging:
+
+https://www.youtube.com/watch?v=uR-9NGrpU-c
+
+Creating remote branches:
+
+https://www.youtube.com/watch?v=OVQK2zzb6U8
