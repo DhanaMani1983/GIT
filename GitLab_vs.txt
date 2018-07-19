@@ -13,3 +13,15 @@ GitLab - Create a new project in GitLab, once the project is created, copy the c
 Go to Visual studio, select sync and then publish to remote repository, enter the URL copied in the previous step  
 
 Once synced to the remote repo, you can clone to the remote repo by clicking on manage connection, then clone enter the local repo and remote repo to clone 
+
+GitLab Newbi Tutorial:
+
+https://about.gitlab.com/2015/05/18/simple-words-for-a-gitlab-newbie/
+
+Git Branching and Merging Strategies:
+
+https://www.youtube.com/watch?v=to6tIdy5rNc
+
+Introduction to Git - Core Concepts:
+
+https://www.youtube.com/watch?v=uR6G2v_WsRA
