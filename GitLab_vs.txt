@@ -1,0 +1,15 @@
+Source URL: https://www.youtube.com/watch?v=MscB0f8kbsI
+
+To change plug in selection:
+
+In VS to change plug in selection, open vs go to tools select options select source control, select current source control plug-in as Git
+
+Create new visual studio project, select create directory for solution but uncheck Add to source control 
+
+Once the project is created, right click on the project and select add to source control, select git. Enter comments and hit commit 
+
+GitLab - Create a new project in GitLab, once the project is created, copy the clone link to vs..  
+
+Go to Visual studio, select sync and then publish to remote repository, enter the URL copied in the previous step  
+
+Once synced to the remote repo, you can clone to the remote repo by clicking on manage connection, then clone enter the local repo and remote repo to clone 
